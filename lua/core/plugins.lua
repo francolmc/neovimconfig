@@ -42,19 +42,19 @@ require("lazy").setup({
     -- Resaltador de sintaxis
     { 'HiPhish/nvim-ts-rainbow2' },
     { 'nvim-treesitter/nvim-treesitter' },
-     -- Telescope (Fuzzy Finder)
+    -- Telescope (Fuzzy Finder)
     -- Added these plugins to install Telescope
     {
         'nvim-telescope/telescope.nvim',
         lazy = true,
         dependencies = {
-            {'nvim-lua/plenary.nvim'},
+            { 'nvim-lua/plenary.nvim' },
         }
     },
     {
         'tpope/vim-fugitive',
         dependencies = {
-            {'tpope/vim-rhubarb'}
+            { 'tpope/vim-rhubarb' }
         },
     },
     { 'nvim-tree/nvim-web-devicons' },
@@ -65,10 +65,20 @@ require("lazy").setup({
         branch = 'release'
     },
     -- add terminal
-    { 'akinsho/toggleterm.nvim', version = "*", config = true },
+    { 'akinsho/toggleterm.nvim',    version = "*", config = true },
     -- Which-key Extension
     {
         'folke/which-key.nvim',
         lazy = true,
     },
+    -- Revisar los TODO:
+    {
+        "folke/todo-comments.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" },
+        opts = {
+            -- your configuration comes here
+            -- or leave it empty to use the default settings
+            -- refer to the configuration section below
+        }
+    }
 })
