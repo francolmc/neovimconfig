@@ -71,7 +71,7 @@ require("lazy").setup({
         'folke/which-key.nvim',
         lazy = true,
     },
-    -- Revisar los TODO:
+    -- Revisar los TODO: require la instalacion de ripgrep
     {
         "folke/todo-comments.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },
