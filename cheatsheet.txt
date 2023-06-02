@@ -6,3 +6,6 @@ https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64
 Descomprimir la el archivo y copiar la carpeta en la raiz del disco
 
 Luego de se debe agregar el path a la carpeta bin dentro de las variables de entorno de windows
+
+En caso de requerir instalar el soporte para treesitter en fedora, se debe instalar el compilador de c++
+sudo dnf install gcc-c++
