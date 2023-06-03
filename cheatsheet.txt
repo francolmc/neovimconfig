@@ -9,3 +9,6 @@ Luego de se debe agregar el path a la carpeta bin dentro de las variables de ent
 
 En caso de requerir instalar el soporte para treesitter en fedora, se debe instalar el compilador de c++
 sudo dnf install gcc-c++
+
+En caso de haber problemas con python ejecutar el siguiente comando
+pip3 install --user --upgrade pynvim
