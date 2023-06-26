@@ -28,7 +28,7 @@ vim.fn['coc#config']('suggest.completionItemKindLabels', {
 vim.cmd('set updatetime=300')
 vim.cmd('autocmd CursorHold * silent call CocActionAsync("highlight")')
 vim.g.coc_global_extensions = { 'coc-yaml', 'coc-tsserver', 'coc-tailwindcss', 'coc-snippets', 'coc-pyright',
-    'coc-prisma', 'coc-prettier', 'coc-lua', 'coc-json', 'coc-html', 'coc-eslint8', 'coc-emmet', 'coc-docker', 'coc-css' }
+    'coc-prisma', 'coc-prettier', 'coc-lua', 'coc-json', 'coc-html', 'coc-eslint8', 'coc-emmet', 'coc-docker', 'coc-css', 'coc-tabnine' }
 -- vim.g.coc_node_path = '/usr/local/bin/node'
 vim.g.coc_snippet_next = '<tab>'
 vim.g.coc_snippet_prev = '<s-tab>'
