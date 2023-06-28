@@ -9,7 +9,7 @@ function UseColorScheme(color)
     vim.g.tokyodark_color_gamma = "1.0"
 
     -- Establece las fuentes que tienen soporte para calt y ss01
-    vim.cmd([[let &guifont = "Cascursive:h14"]])
+    vim.cmd([[let &guifont = "Cascursive:h13"]])
     vim.cmd.colorscheme(color)
 end
 
