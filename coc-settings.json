@@ -1,0 +1,67 @@
+{
+    "coc.preferences.enableMessageDialog": true,
+    "dialog.floatBorderHighlight": "FloatBorder",
+    "suggest.floatConfig": {
+        "border": true,
+        "winblend": 15,
+        "borderhighlight": "FloatBorder",
+        "rounded": true,
+        "highlight": "CocFloating"
+    },
+    "hover.floatConfig": {
+        "border": true,
+        "winblend": 15,
+        "borderhighlight": "FloatBorder",
+        "rounded": true,
+        "highlight": "CocFloating"
+
+    },
+    "signature.floatConfig": {
+        "border": true,
+        "winblend": 15,
+        "borderhighlight": "FloatBorder",
+        "rounded": true,
+        "highlight": "CocFloating"
+
+    },
+    "diagnostic.floatConfig": {
+        "border": true,
+        "winblend": 15,
+        "borderhighlight": "FloatBorder",
+        "rounded": true,
+        "highlight": "CocFloating"
+
+    },
+    // Cambia el signo de error a "✘"
+    "diagnostic.errorSign": "✘",
+    // Cambia el signo de advertencia a "🞈"
+    "diagnostic.warningSign": "🞈",
+    // Cambia el signo de información a "ⓘ️"
+    "diagnostic.infoSign": "ⓘ️",
+    // Cambia el signo de sugerencia a "➤"
+    "diagnostic.hintSign": "➤",
+    // Asigna un icono de fuente a cada tipo de elemento
+    "suggest.completionItemKindLabels": {
+        "variable": "",
+        "function": "",
+        "class": "",
+        "interface": "ﰮ",
+        "text": "",
+        "enum": "",
+        "enumMember": "",
+        "color": "",
+        "property": "",
+        "field": "",
+        "unit": "",
+        "file": "",
+        "value": "",
+        "event": "",
+        "folder": "",
+        "keyword": "",
+        "snippet": "﬌",
+        "operator": "",
+        "reference": "",
+        "typeParameter": "<T>",
+        "default": " Default",        
+    }
+}
